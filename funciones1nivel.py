@@ -14,6 +14,9 @@ def sumaTodos(limitTo, f):
     
     return (resultado)
 
-#print (sumaTodos(100,normal))
-
-#print (sumaTodos (3,cuadrado))
+if __name__=="__main__":
+    #(para que no ejecute el print si es llamado/invocado desde otro programa/otra función
+    print (sumaTodos(100,normal))
+    print (sumaTodos (3,cuadrado))
+else:
+    print (__name__)

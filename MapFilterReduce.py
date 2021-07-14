@@ -29,3 +29,12 @@ print (sumaTodos)
 
 suma100 = reduce (lambda x,y: x + y, range(101))
 print (suma100)
+
+sumaDobles = reduce (lambda x, y: x + y*2, lista)
+print (sumaDobles)
+
+l = lista [:] #para clonar una lista
+l.insert(0,0) #añadimos un primer valor a cero para que el reduce opere de la misma manera en nuestra lista en el elemento 0
+
+sumaDoblesL = reduce (lambda x, y: x + y*2, l)
+print (sumaDoblesL)

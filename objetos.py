@@ -9,12 +9,13 @@ otraTortuguita = turtle.Turtle()
         #.Turtle - pueden tener diferentes atributos, diferentes instancias
         # CLASE es el bloque de código define las características de un objeto determinado
             # la calse o el bloque de código está compuesto por:
-            # funciones - a las que llamamos MËTODOS
-            # variables - a las que llamamos ATRIBUTOS
+            # funciones - a las que llamamos MËTODOS - los métodos fijan el corportamiento del objeto
+            # variables - a las que llamamos ATRIBUTOS - los atributos fijan el estado
+            # INSTANCIAS - son copias con unas determinadas características
 
 tortuguita.shape("turtle")
 tortuguita.fd(50)
 
-otraTortuguita.color("blue") # color es una función a la que llamamos método
+otraTortuguita.color("blue")
 otraTortuguita.left(90)
 otraTortuguita.fd(50)

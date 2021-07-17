@@ -9,3 +9,17 @@ class Dog(): #declaramos la clase siempre en MAYÜSCULAS
         self.nombre = n   #self = clase vacia, para instanciar la clase, es decir, crear las diferentes instaccias
         self.edad = e
         self.peso = p
+        
+    def ladrar(self): #por conveviencia se pone self, pero podríamos poner cualquier cosa
+        if self.peso > 5:
+            print ("GUAU, GUAU")
+        else:
+            print ("guau, guau")
+    
+    def __str__(self):
+        return "Perro {}, e: {} años, p: {} kg".format(self.nombre, self.edad, self.peso) #para que nos devuelva los datos
+
+def ladrar():
+    print ("No tengo perro")
+ 
+
